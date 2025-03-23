@@ -15,7 +15,22 @@ Lai risinātu šīs problēmas, mēs izstrādāsim Viedo Starptautisko Kravu Pā
     - Dati ietvers svarīgu informāciju, kā: kravas aprakstu, svaru, maršrutu, plānoto piegādes laiku un muitas dokumentus.
 
     - Sistēma nodrošinās automātisku datu sinhronizāciju ar citām platformām, lai izvairītos no manuālas datu ievades un dublēšanās.
+ 
+    - Tehniskā implementācija:
+        - Kravas svaram jābūt pozitīvam (>0), izteiktam tonnās, ar diviem cipariem aiz komata.
 
+        - Laika izteikts ISO 8601 formātā (piemēram, 2024-03-15T14:30:00+08:00), ierašanās laiks nedrīkst būt agrāks par izbraukšanas laiku.
+
+        - Kravas veidu varēs izvēlēties tikai no iepriekš noteiktiem, piemēram:
+            - Koks
+            - Ķīmiskās vielas
+            - Pārtika
+            - Bīstamas preces
+              
+        - Informācijas avoti:
+            - Latvijas Dzelzceļa API
+            - Rīgas ostas EDI interfeiss
+            - ES vienotā muitas sistēma (UCC)
 - Piekļuve
 
     - Darbiniekiem
